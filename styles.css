@@ -47,7 +47,7 @@ p {
   border-radius:50%;
   animation:animateC 2s linear infinite;
 }
-span
+#spin
 {
   display:block;
   position:absolute;
@@ -59,7 +59,7 @@ span
   transform-origin:left;
   animation:animate 2s linear infinite;
 }
-span:before
+spin:before
 {
   content:'';
   position:absolute;
@@ -98,4 +98,32 @@ span:before
     position:absolute;
     top:86%;
     left:5%;
+}
+
+#cycle:after {
+    -webkit-animation: cycle 20s infinite; /* Safari 4+ */
+    -moz-animation: cycle 20s infinite; /* Fx 5+ */
+    -o-animation: cycle 20s infinite; /* Opera 12+ */
+    animation: cycle 20s infinite; /* IE 10+, Fx 29+ */
+    color: #eaeaea;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+@keyframes cycle {
+  0% {
+    content: "No one:  Aviana: snek";
+  }
+  25% {
+    content: "Wimbleton doesn't always need to roll for stealth...";
+  }
+  50% {
+    content: "Ayaan surprisingly hasn't died of 1d4 damage yet!!";
+  }
+  75% {
+    content: "Half cover gives +2 AC and advantage on saving throws";
+  }
+  100% {
+    content: "How has Kayera not seduced anyone yet???";
+  }
 }
