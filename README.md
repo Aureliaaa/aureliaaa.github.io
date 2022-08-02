@@ -1,2 +1,2 @@
-# aureliaaa.github.io
-website for hosting the dnd loading screen
+# West inc.
+repository for hosting the dnd loading screen
